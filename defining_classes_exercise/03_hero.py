@@ -13,6 +13,7 @@ class Hero:
         self.health += heal_amount
         return self.health
 
+
 hero = Hero("Peter", 100)
 print(hero.defend(50))
 hero.heal(50)
