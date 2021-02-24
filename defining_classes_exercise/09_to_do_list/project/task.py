@@ -22,8 +22,7 @@ class Task:
 
     def edit_comment(self, comment_number: int, new_comment: str):
         try:
-            self.comments.pop(comment_number)
-            self.comments.insert(comment_number, new_comment)
+            self.comments[comment_number] = new_comment
             return f", ".join(self.comments)
         except IndexError:
             return "Cannot find comment."
