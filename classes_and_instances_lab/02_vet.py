@@ -7,8 +7,7 @@ class Vet:
         self.animals = []
 
     def register_animal(self, animal_name):
-        if Vet.space > 0:
-            Vet.space -= 1
+        if len(Vet.animals) < Vet.space:
             Vet.animals.append(animal_name)
             self.animals.append(animal_name)
             return f"{animal_name} registered in the clinic"
@@ -16,14 +15,13 @@ class Vet:
 
     def unregister_animal(self, animal_name):
         if animal_name in self.animals:
-            Vet.space += 1
             self.animals.remove(animal_name)
             Vet.animals.remove(animal_name)
             return f"{animal_name} unregistered successfully"
         return f"{animal_name} not in the clinic"
 
     def info(self):
-        return f"{self.name} has {len(self.animals)} animals. {Vet.space} space left in clinic"
+        return f"{self.name} has {len(self.animals)} animals. {len(Vet.animals)} space left in clinic"
 
 
 peter = Vet("Peter")
