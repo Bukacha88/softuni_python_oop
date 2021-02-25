@@ -13,9 +13,9 @@ class Point:
         self.y = new_y
 
     def distance(self, x, y):
-        x_dist = abs(self.x - x)
-        y_dist = abs(self.y - y)
-        distance = math.sqrt(x_dist * x_dist + y_dist * y_dist)
+        x_dist = abs(self.x - x) ** 2
+        y_dist = abs(self.y - y) ** 2
+        distance = math.sqrt(x_dist + y_dist)
         return distance
 
 
