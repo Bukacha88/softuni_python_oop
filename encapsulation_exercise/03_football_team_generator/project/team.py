@@ -1,8 +1,8 @@
 class Team:
     def __init__(self, name, rating):
-        self.__rating = rating
-        self.__name = name
-        self.__players = []
+        self.rating = rating
+        self.name = name
+        self.players = []
 
     @staticmethod
     def find_player(player_name, players):

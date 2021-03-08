@@ -1,9 +1,9 @@
 class Pizza:
     def __init__(self, name, dough, toppings_capacity):
-        self.__toppings_capacity = toppings_capacity
-        self.__dough = dough
-        self.__name = name
-        self.__toppings = {}
+        self.toppings_capacity = toppings_capacity
+        self.dough = dough
+        self.name = name
+        self.toppings = {}
 
     @property
     def name(self):

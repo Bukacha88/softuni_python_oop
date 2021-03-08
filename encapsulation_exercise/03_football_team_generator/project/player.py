@@ -1,11 +1,11 @@
 class Player:
     def __init__(self, name, endurance, sprint, dribble, passing, shooting):
-        self.__shooting = shooting
-        self.__passing = passing
-        self.__dribble = dribble
-        self.__sprint = sprint
-        self.__endurance = endurance
-        self.__name = name
+        self.shooting = shooting
+        self.passing = passing
+        self.dribble = dribble
+        self.sprint = sprint
+        self.endurance = endurance
+        self.name = name
 
     @property
     def shooting(self):
