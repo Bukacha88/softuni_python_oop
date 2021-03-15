@@ -27,8 +27,8 @@ class Group:
         members = [p.__repr__() for p in self.people]
         return f'Group {self.name} with members {", ".join(members)}'
 
-    def __getitem__(self, item):
-        result = f'Person {item}: {self.people[item].name} {self.people[item].surname}'
+    def __getitem__(self, index):
+        result = f'Person {index}: {self.people[index].name} {self.people[index].surname}'
         return result
 
 
