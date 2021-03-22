@@ -16,12 +16,12 @@ class Customer:
         return Customer.customer_id + 1
 
 
-from project.customer import Customer
-from project.equipment import Equipment
-from project.exercise_plan import ExercisePlan
-from project.gym import Gym
-from project.subscription import Subscription
-from project.trainer import Trainer
+from exam_prep.python_oop_exam_16_aug_2020.project import Customer
+from exam_prep.python_oop_exam_16_aug_2020.project import Equipment
+from exam_prep.python_oop_exam_16_aug_2020.project import ExercisePlan
+from exam_prep.python_oop_exam_16_aug_2020.project import Gym
+from exam_prep.python_oop_exam_16_aug_2020.project import Subscription
+from exam_prep.python_oop_exam_16_aug_2020.project import Trainer
 
 import unittest
 

@@ -1,5 +1,5 @@
-from project.animals.animal import Mammal
-from project.food import Vegetable, Fruit, Meat, Seed
+from exam_prep.python_oop_exam_16_aug_2020.project import Mammal
+from exam_prep.python_oop_exam_16_aug_2020.project import Vegetable, Fruit, Meat
 
 
 class Mouse(Mammal):

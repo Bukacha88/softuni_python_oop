@@ -1,11 +1,3 @@
-from project.caretaker import Caretaker
-from project.cheetah import Cheetah
-from project.keeper import Keeper
-from project.lion import Lion
-from project.tiger import Tiger
-from project.vet import Vet
-
-
 class Zoo:
     def __init__(self, name, budget, animal_capacity, workers_capacity):
         self.__workers_capacity = workers_capacity
