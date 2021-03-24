@@ -1,12 +1,12 @@
-import timeit
+from timeit import default_timer as timer
 
 
 def exec_time(func):
     def wrapper(*args):
-        start = timeit.timeit()
+        start = timer()
         func(*args)
-        end = timeit.timeit()
-        return end - start
+        end = timer() - start
+        return end
     return wrapper
 
 
