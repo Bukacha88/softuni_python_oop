@@ -1,5 +1,5 @@
-from exam_prep.python_oop_retake_exam_22_aug_2020.project.appliances import Appliance
-from exam_prep.python_oop_retake_exam_22_aug_2020.project.people import Child
+from exam_prep.python_oop_retake_exam_22_aug_2020.project.appliances.appliance import Appliance
+from exam_prep.python_oop_retake_exam_22_aug_2020.project.people.child import Child
 
 
 class Room:

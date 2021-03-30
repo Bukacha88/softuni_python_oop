@@ -1,5 +1,5 @@
-from exam_prep.python_oop_retake_exam_22_aug_2020.project.appliances import Fridge
-from exam_prep.python_oop_retake_exam_22_aug_2020.project.appliances import Laptop
+from exam_prep.python_oop_retake_exam_22_aug_2020.project.appliances.fridge import Fridge
+from exam_prep.python_oop_retake_exam_22_aug_2020.project.appliances.laptop import Laptop
 from exam_prep.python_oop_retake_exam_22_aug_2020.project.appliances.tv import TV
 from exam_prep.python_oop_retake_exam_22_aug_2020.project.rooms.room import Room
 
