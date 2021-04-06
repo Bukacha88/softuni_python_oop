@@ -1,5 +1,5 @@
 import unittest
-from project.mammal import Mammal
+from exam_prep.python_oop_exam_preparation_2_april_2020.project import Mammal
 
 
 class TestMammal(unittest.TestCase):

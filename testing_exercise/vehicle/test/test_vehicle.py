@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from project.vehicle import Vehicle
+from exam_prep.python_oop_exam_preparation_2_april_2020.project import Vehicle
 
 
 class TestVehicle(TestCase):

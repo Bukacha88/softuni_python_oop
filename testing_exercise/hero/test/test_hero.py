@@ -1,6 +1,6 @@
 from unittest import TestCase, main
 
-from project.hero import Hero
+from exam_prep.python_oop_exam_preparation_2_april_2020.project import Hero
 
 
 class TestHero(TestCase):
